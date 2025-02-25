@@ -1,0 +1,47 @@
+{
+  "name": "Golden Hour Seascape - Basic One",
+  "description": "A photographic capture of a serene seashore at golden hour, bathed in warm light with a touch of blue in the sky.",
+  "image": "https://ipfs.io/ipfs/QmfHkYacKY5qFhEyYMH7Ar8ZR8dxenG5m5XPp2tVXiX9SE?filename=basic_one.jpg",
+  "attributes": [
+    {
+      "trait_type": "Environment",
+      "value": "Seashore"
+    },
+    {
+      "trait_type": "Time of Day",
+      "value": "Golden Hour"
+    },
+    {
+      "trait_type": "Sky Color",
+      "value": "Warm Blue"
+    },
+    {
+      "trait_type": "Foreground",
+      "value": "Sandy Beach"
+    },
+    {
+      "trait_type": "Lighting",
+      "value": "Backlight"
+    },
+    {
+      "trait_type": "Camera Angle",
+      "value": "Shot from Below"
+    },
+    {
+      "trait_type": "Mood",
+      "value": "Serene"
+    },
+    {
+      "trait_type": "Style",
+      "value": "Photographic"
+    },
+    {
+      "trait_type": "Resolution",
+      "value": "768x1344"
+    },
+    {
+      "trait_type": "Aspect Ratio",
+      "value": "4:7"
+    }
+  ]
+}

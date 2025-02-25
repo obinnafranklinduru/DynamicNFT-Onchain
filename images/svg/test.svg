@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+<circle cx="100" cy="100" r="50" fill="blue"/>
+<circle cx="80" cy="80" r="10" fill="white"/>
+<circle cx="120" cy="80" r="10" fill="white"/>
+<circle cx="80" cy="80" r="5" fill="black"/>
+<circle cx="120" cy="80" r="5" fill="black"/>
+<polygon points="95,110 105,110 100,120" fill="pink"/>
+<path d="M85 120 Q100 140 115 120" stroke="black" fill="none"/>
+</svg>

@@ -1,0 +1,40 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Cat Body -->
+  <ellipse cx="100" cy="130" rx="50" ry="60" fill="#D2691E" /> 
+
+  <!-- Cat Head -->
+  <circle cx="100" cy="80" r="40" fill="#D2691E" /> 
+
+  <!-- Fluffy Fur on Head -->
+  <path d="M70 55 Q85 40 100 50 Q115 40 130 55" stroke="#A0522D" stroke-width="3" fill="none"/>
+
+  <!-- Cat Ears -->
+  <polygon points="70,50 85,20 100,50" fill="#D2691E"/>
+  <polygon points="130,50 115,20 100,50" fill="#D2691E"/>
+
+  <!-- Cat Eyes (Now Green) -->
+  <circle cx="85" cy="75" r="6" fill="white"/>
+  <circle cx="115" cy="75" r="6" fill="white"/>
+  <circle cx="85" cy="75" r="3" fill="green"/>
+  <circle cx="115" cy="75" r="3" fill="green"/>
+
+  <!-- Cat Nose -->
+  <polygon points="95,85 105,85 100,95" fill="pink"/>
+
+  <!-- Cat Mouth (Small "o" Shape) -->
+  <circle cx="100" cy="105" r="4" fill="black"/>
+
+  <!-- Cat Whiskers -->
+  <line x1="70" y1="90" x2="40" y2="80" stroke="black"/>
+  <line x1="70" y1="100" x2="40" y2="100" stroke="black"/>
+  <line x1="70" y1="110" x2="40" y2="120" stroke="black"/>
+  <line x1="130" y1="90" x2="160" y2="80" stroke="black"/>
+  <line x1="130" y1="100" x2="160" y2="100" stroke="black"/>
+  <line x1="130" y1="110" x2="160" y2="120" stroke="black"/>
+
+  <!-- Cat Tail -->
+  <path d="M150 140 Q170 130 160 110 Q150 90 170 80" stroke="#D2691E" stroke-width="8" fill="none"/>
+
+  <!-- Fluffy Fur on Body -->
+  <path d="M75 140 Q100 160 125 140" stroke="#A0522D" stroke-width="3" fill="none"/>
+</svg>
