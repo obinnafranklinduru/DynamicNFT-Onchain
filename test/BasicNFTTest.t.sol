@@ -21,8 +21,8 @@ contract BasicNFTTest is Test {
         vm.prank(user);
         basicNFT.mint(user, TOKENURI);
 
-        assertEq(basicNFT.ownerOf(1), user);
-        assertEq(basicNFT.tokenURI(1), TOKENURI);
+        assertEq(basicNFT.ownerOf(0), user);
+        assertEq(basicNFT.tokenURI(0), TOKENURI);
     }
 
     function testMintingMultiple() public {
@@ -30,9 +30,9 @@ contract BasicNFTTest is Test {
         basicNFT.mint(user, TOKENURI);
         basicNFT.mint(user, TOKENURI);
 
+        assertEq(basicNFT.ownerOf(0), user);
         assertEq(basicNFT.ownerOf(1), user);
-        assertEq(basicNFT.ownerOf(2), user);
+        assertEq(basicNFT.tokenURI(0), TOKENURI);
         assertEq(basicNFT.tokenURI(1), TOKENURI);
-        assertEq(basicNFT.tokenURI(2), TOKENURI);
     }
 }
